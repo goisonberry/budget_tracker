@@ -1,9 +1,23 @@
 body {
+  background-color: rgba(73, 88, 88, 0.322);
   font-size: 120%;
   font-family: Arial;
 }
 
-button, input {
+#add-btn {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-width: 5px;
+  border-color: rgb(55, 207, 55);
+}
+
+#sub-btn {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-width: 5px;
+  border-color: rgb(202, 42, 74);
+}
+
+button,
+input {
   font-size: 100%;
   font-family: Arial;
 }
@@ -12,7 +26,8 @@ table {
   width: 100%;
 }
 
-td, th {
+td,
+th {
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
